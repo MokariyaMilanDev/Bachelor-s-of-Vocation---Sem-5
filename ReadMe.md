@@ -16,4 +16,10 @@
 
 **[ReadMe](./oop-java/ReadMe.md)**
 
-## Java
+2. **`C#`**
+
+**[ReadMe](./c-sharp/ReadMe.md)**
+
+3. **`.NET`**
+
+**[ReadMe](./dot-net/ReadMe.md)**
