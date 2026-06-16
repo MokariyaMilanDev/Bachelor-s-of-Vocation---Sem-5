@@ -1,0 +1,15 @@
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.csproj.AssemblyReference.cache
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.GeneratedMSBuildEditorConfig.editorconfig
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.AssemblyInfoInputs.cache
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.AssemblyInfo.cs
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.csproj.CoreCompileInputs.cache
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/bin/Debug/net6.0/console
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/bin/Debug/net6.0/console.deps.json
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/bin/Debug/net6.0/console.runtimeconfig.json
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/bin/Debug/net6.0/console.dll
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/bin/Debug/net6.0/console.pdb
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.dll
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/refint/console.dll
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.pdb
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/console.genruntimeconfig.cache
+/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/programs/console/obj/Debug/net6.0/ref/console.dll
