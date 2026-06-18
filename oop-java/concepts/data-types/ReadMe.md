@@ -21,7 +21,7 @@ int age = 19;
 ## Float
 
 ```java
-float weight = 70.5f;
+float weight = 70.5;
 ```
 
 ## Double
@@ -36,4 +36,8 @@ double height = 1.75;
 boolean isStudent = true;
 ```
 
-Note: and many more
+> Note: and many more
+
+## Array
+
+**[Read More](./array/ReadMe.md)**
