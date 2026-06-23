@@ -18,7 +18,6 @@ DateTime today = DateTime.Now();
 
 ```cs
 dynamic isBorder = "true";
-
 ```
 
 #### 4. Object
