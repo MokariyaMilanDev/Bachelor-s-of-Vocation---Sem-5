@@ -53,6 +53,38 @@ Console.WriteLine("Your age(GetType()): " + age.GetType());
 Console.WriteLine("Your age(CompareTo(int Number)): " + age.CompareTo(19));
 Console.WriteLine("Your age(Equals(int Number)): " + age.Equals(19));
 
+//> Currency
+Console.WriteLine("Your age(ToString('C')): " + age.ToString("C"));
+//> Display number with commas
+Console.WriteLine("Your age(ToString('N')): " + age.ToString("N"));
+//> Hexadecimal
+Console.WriteLine("Your age(ToString('X')): " + age.ToString("X"));
+//> Binary
+//> 8 
+//? 8 % 2 = 0 (4)
+//? 4 % 2 = 0 (2)
+//? 2 % 2 = 0 (1)
+//? 1 % 2 = 1 (0.5)
+//! 8 (Number) = 1000 (Binary)
+Console.WriteLine("Your age(Convert.ToString(x Number, 2)): " + Convert.ToString(age, 2));
+
+//> Positive (1), Nagative (-1) and Zero (0)
+Console.WriteLine("Your age(Math.Sign(x Number)): " + Math.Sign(age));
+Console.WriteLine("Your age(Math.Abs(x Number)): " + Math.Abs(age));
+Console.WriteLine("Your age(Math.Max(x Number, y Number)): " + Math.Max(age, 100));
+Console.WriteLine("Your age(Math.Min(x Number, y Number)): " + Math.Min(age, 0));
+Console.WriteLine("Your age(Math.Pow(base Number, exponent Number)): " + Math.Pow(age, 2));
+Console.WriteLine("Your age(Math.Sqrt(x Number)): " + Math.Sqrt(age));
+
+//> Double
+double doubleAge = 9.95634;
+Console.WriteLine("Your age(Math.Round(x Double)): " + Math.Round(doubleAge));
+Console.WriteLine("Your age(Math.Ceiling(x Double)): " + Math.Ceiling(doubleAge));
+Console.WriteLine("Your age(Math.Floor(x Double)): " + Math.Floor(doubleAge));
+Console.WriteLine("Your age(Math.Truncate(x Double)): " + Math.Truncate(doubleAge));
+
+
+
 //? String
 // Console.WriteLine("Enter Your Name: ");
 // string name = Console.ReadLine();
