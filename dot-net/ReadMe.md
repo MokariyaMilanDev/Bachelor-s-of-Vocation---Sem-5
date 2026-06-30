@@ -2,8 +2,8 @@
 
 ### Commands
 
-[View CLI Commands](./_cmd.md)
+[**View CLI Commands**](./_cmd.md)
 
 ### Concepts
 
-[Concepts](./concepts/ReadMe.md)
+[**Concepts**](./concepts/ReadMe.md)
