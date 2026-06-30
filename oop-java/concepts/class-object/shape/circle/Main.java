@@ -13,6 +13,10 @@ class Circle {
       this._radius = radius;
    }
 
+   Circle() {
+      this._radius = 10;
+   }
+
    double getRadius() {
       return this._radius;
    }
