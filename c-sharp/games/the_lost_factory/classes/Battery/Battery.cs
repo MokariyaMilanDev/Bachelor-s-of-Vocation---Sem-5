@@ -1,10 +1,10 @@
 using System;
 
-class Wire : PrimaryKey{
+class Battery : PrimaryKey{
    public Guid id { get; } = Guid.NewGuid();
    public Position position { get; }
 
-   public Wire(Position position)
+   public Battery(Position position)
     {
         this.position = position;
     }

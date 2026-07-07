@@ -45,3 +45,46 @@ class <ClasName> {
 ```java
 <ClassName> <ObjectName> = new <ClassName>();
 ```
+
+## Inheritance
+
+- an class dirived another class
+- `extend` keyword is used for inheritance
+
+### Types
+
+**Single Level**
+
+- Parent to Child
+
+##### Example
+
+```java
+class Parent{
+   // Body
+}
+
+class Chile extends Parent{
+   // Body
+}
+```
+
+**Multi Level**
+
+- Parent -> Child -> GrandChild
+
+##### Example
+
+```java
+class Parent{
+   // Body
+}
+
+class Chile extends Parent{
+   // Body
+}
+
+class GrandChile extends Child{
+   // Body
+}
+```
