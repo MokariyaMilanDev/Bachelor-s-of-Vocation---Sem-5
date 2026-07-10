@@ -11,7 +11,7 @@ class Game{
         MetalPlate metalPlate = new MetalPlate(new Position(10, 40));
         Console.WriteLine("Wire: " + wire.id);
         Console.WriteLine("Battery: " + battery.id);
-        Console.WriteLine("battery.position: " + battery.position.x + battery.position.y);
+        Console.WriteLine("Battery.position: " + battery.position.x + battery.position.y);
         Console.WriteLine("MetalPlate: " + metalPlate.id);
         Console.WriteLine("Wires: " + player.wires);
         Console.WriteLine("Batteries: " + player.batteries);
