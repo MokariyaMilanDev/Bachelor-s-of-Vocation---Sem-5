@@ -69,6 +69,19 @@ class Chile extends Parent{
 }
 ```
 
+## Polymorphism
+
+### Types
+
+**Function Overloading**
+
+- `Compile time`
+- Same name of functions but different from parameters or it's data types
+
+**Function Override**
+
+- `Run time`
+
 **Multi Level**
 
 - Parent -> Child -> GrandChild
