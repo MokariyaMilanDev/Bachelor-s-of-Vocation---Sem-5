@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Game{
    
-   public static void Main(string[] args)
+   public static void main(string[] args)
     {
         Player player = new Player("Red", new Position(10, 40));
         Wire wire = new Wire(new Position(10, 50));
