@@ -101,3 +101,24 @@ class GrandChile extends Child{
    // Body
 }
 ```
+
+### Access Modifiers
+
+**Public**
+
+- By default
+- access any where
+
+**Private**
+
+- Can't be able to access out side of class
+
+**Protected**
+
+- Can;t be able to access out side of class but can access in inherited class
+
+### Scope of Variable
+
+**Global**
+
+**Local**
