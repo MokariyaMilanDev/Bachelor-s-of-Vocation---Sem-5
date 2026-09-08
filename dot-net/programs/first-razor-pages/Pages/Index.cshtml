@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@{
+    int NumberOne = 10;
+    int NumberTwo = 20;
+    int Sum = NumberOne + NumberTwo;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>@Model.Greet</p>
+</div>
+<div class="text-center">
+    <p>NumberOne - @NumberOne</p>
+    <p>NumberTwo - @NumberTwo</p>
+    <p>Sum - @Sum</p>
+</div>
+

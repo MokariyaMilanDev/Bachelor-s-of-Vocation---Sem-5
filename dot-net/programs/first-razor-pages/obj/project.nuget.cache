@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VxZAEZA4+HACWk47CEx9Aalo0JeGqSgmLukq7Lb+nc8W7JOxR1tKN993dwD/cT5BBsMUL+58KcGjkStodkNIdA==",
+  "success": true,
+  "projectFilePath": "/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/first-razor-pages/webapp.csproj",
+  "expectedPackageFiles": [
+    "/home/mokariya/.nuget/packages/microsoft.netcore.app.ref/6.0.8/microsoft.netcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/mokariya/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512",
+    "/home/mokariya/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.8/microsoft.netcore.app.host.linux-x64.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
