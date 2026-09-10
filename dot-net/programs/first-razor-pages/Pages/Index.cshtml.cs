@@ -13,9 +13,16 @@ public class IndexModel : PageModel
     }
 
     public string Greet { get; set; } 
-
     public void OnGet()
     {
         Greet = "Love from Devs!";
+    }
+
+    [BindProperty]
+    public string userName { get; set; } = string.Empty;
+    public string userPassword { get; set; } = string.Empty;
+
+    public void OnPost(){
+
     }
 }

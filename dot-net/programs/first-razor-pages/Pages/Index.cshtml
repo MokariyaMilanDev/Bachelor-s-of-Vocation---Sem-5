@@ -13,9 +13,27 @@
     <h1 class="display-4">Welcome</h1>
     <p>@Model.Greet</p>
 </div>
-<div class="text-center">
+@* <div class="text-center">
     <p>NumberOne - @NumberOne</p>
     <p>NumberTwo - @NumberTwo</p>
     <p>Sum - @Sum</p>
+</div> *@
+<div class="container mt-4" style="max-width: 400px;">
+    <h1 class="">Register User</h1>
+    <form method="post">
+        <div class="mb-4">
+            <label for="user-name">User Name</label>
+            <input class="form-control" type="text" name="user-name" asp-for="userName" id="user-name" placeholder="Enter your name" required >
+        </div>
+        <div class="mb-4">
+            <label for="user-password">Password</label>
+            <input class="form-control" type="password" name="user-password" asp-for="userPassword" id="user-password" placeholder="Enter your password" required >
+        </div>
+        <button type="submit" class="bg-white border-1 w-100 p-1 rounded-2">Submit</button>
+    </form>
+    @if(!string.IsNullOrEmpty(Model.userName)){
+        <div class="alert alert-success">
+            <strong>@Model.userName</strong>
+        </div>
+    }
 </div>
-

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/first-console-project/first-project.csproj",
+      "projectUniqueName": "/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/first-console-project/first-project.csproj",
       "projectName": "first-project",
-      "projectPath": "/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/first-console-project/first-project.csproj",
+      "projectPath": "/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/first-console-project/first-project.csproj",
       "packagesPath": "/home/mokariya/.nuget/packages/",
-      "outputPath": "/home/mokariya/Drive D/College/Bachelor's of Vocation - Sem 5/dot-net/first-console-project/obj/",
+      "outputPath": "/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/first-console-project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mokariya/.nuget/NuGet/NuGet.Config"
