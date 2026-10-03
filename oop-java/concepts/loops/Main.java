@@ -33,7 +33,7 @@ public class Main {
       return sum;
    }
 
-   private static double calcFactorial(int number) {
+   private static double calcFactoial(int number) {
       if (number == 0 || number == 1)
          return 0;
 

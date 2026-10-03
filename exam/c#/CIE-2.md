@@ -17,6 +17,9 @@
 > **File Structure - Razor Pages**
 > #Marks_2
 
+> **ASP.NET Razor pages short not**
+> #Marks_2
+
 ---
 
 > **Access Specifiers in ASP.NET**
