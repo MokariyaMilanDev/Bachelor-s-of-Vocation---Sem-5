@@ -1,0 +1,10 @@
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.csproj.AssemblyReference.cache
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/rpswa.dswa.cache.json
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.GeneratedMSBuildEditorConfig.editorconfig
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.AssemblyInfoInputs.cache
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.AssemblyInfo.cs
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.csproj.CoreCompileInputs.cache
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.MvcApplicationPartsAssemblyInfo.cache
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.RazorAssemblyInfo.cache
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.RazorAssemblyInfo.cs
+/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/obj/Debug/net10.0/razor-page-database-app.sourcelink.json
