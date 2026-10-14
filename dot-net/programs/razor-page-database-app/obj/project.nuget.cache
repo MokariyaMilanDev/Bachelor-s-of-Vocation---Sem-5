@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Sgc93Dvxl1U=",
+  "dgSpecHash": "/JEj0bHD72g=",
   "success": true,
   "projectFilePath": "/home/mokariya/Drive D/College__Code/Bachelor's of Vocation - Sem 5/dot-net/programs/razor-page-database-app/razor-page-database-app.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "/home/mokariya/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/8.16.0/microsoft.identitymodel.protocols.openidconnect.8.16.0.nupkg.sha512",
     "/home/mokariya/.nuget/packages/microsoft.identitymodel.tokens/8.16.0/microsoft.identitymodel.tokens.8.16.0.nupkg.sha512",
     "/home/mokariya/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "/home/mokariya/.nuget/packages/npgsql/10.0.3/npgsql.10.0.3.nupkg.sha512",
     "/home/mokariya/.nuget/packages/superpower/3.0.0/superpower.3.0.0.nupkg.sha512",
     "/home/mokariya/.nuget/packages/system.configuration.configurationmanager/9.0.18/system.configuration.configurationmanager.9.0.18.nupkg.sha512",
     "/home/mokariya/.nuget/packages/system.identitymodel.tokens.jwt/8.16.0/system.identitymodel.tokens.jwt.8.16.0.nupkg.sha512",

@@ -258,6 +258,19 @@
           }
         }
       },
+      "Npgsql/10.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Npgsql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Superpower/3.0.0": {
         "type": "package",
         "compile": {
@@ -683,6 +696,25 @@
         "microsoft.sqlserver.server.nuspec"
       ]
     },
+    "Npgsql/10.0.3": {
+      "sha512": "7nb5YzXuvWWJxB0J8DiyL3we+X4FOctZrt0fIBnucOIaIevFEEwGQVZKtiu9olXdlNAK1eNgqSral6r/jlhI4w==",
+      "type": "package",
+      "path": "npgsql/10.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/Npgsql.dll",
+        "lib/net10.0/Npgsql.xml",
+        "lib/net8.0/Npgsql.dll",
+        "lib/net8.0/Npgsql.xml",
+        "lib/net9.0/Npgsql.dll",
+        "lib/net9.0/Npgsql.xml",
+        "npgsql.10.0.3.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
     "Superpower/3.0.0": {
       "sha512": "bjKbAYWePooCAvPxQq+3KnmcLfRggMyRoXmtBMlmCG71bdwBHrO6rmRJ2DRIodg5aztNcxeZXBUVWT+H+MZUhw==",
       "type": "package",
@@ -824,7 +856,8 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "DotNetEnv >= 3.2.0",
-      "Microsoft.Data.SqlClient >= 7.1.1"
+      "Microsoft.Data.SqlClient >= 7.1.1",
+      "Npgsql >= 10.0.3"
     ]
   },
   "packageFolders": {
@@ -877,6 +910,10 @@
           "Microsoft.Data.SqlClient": {
             "target": "Package",
             "version": "[7.1.1, )"
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[10.0.3, )"
           }
         },
         "imports": [

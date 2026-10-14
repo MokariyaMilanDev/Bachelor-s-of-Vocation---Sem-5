@@ -1,9 +1,23 @@
-@page
-@model PrivacyModel
-@{
-    ViewData["Title"] = "Users";
-}
+@page 
+@model razorpagedatabase_app.Pages.UsersModel
+
+@{ ViewData["Title"] = "Users"; }
+
 <h1>@ViewData["Title"]</h1>
 
-<p>Users</p>
-<p>Connection: @UsersModel.message</p>
+<p>Users</p> <p>Connection: @Model.message</p>
+
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    @foreach(var user in Model.users){
+        <tr>
+            <td>#@user.Index</td>
+            <td>@user.Name</td>
+            <td>@user.Email</td>
+        </tr>
+    }
+</table>
