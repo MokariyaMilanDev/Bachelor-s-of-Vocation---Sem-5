@@ -1,0 +1,51 @@
+@page
+@model razorpagedatabase_app.Pages.UserFormModel
+
+@{
+    ViewData["Title"] = "User Form";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>@Model.Message</p>
+
+<section class="w-full max-w-xs">
+    <h2>Insert New User</h2>
+
+    <form method="post"
+          class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+
+        <div class="mb-4">
+            <label asp-for="Name"
+                   class="block text-gray-700 text-sm font-bold mb-2">
+                Username
+            </label>
+
+            <input asp-for="Name"
+                   type="text"
+                   class="appearance-none border rounded w-full py-2 px-3 text-gray-700"
+                   placeholder="Enter username" />
+
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div class="mb-6">
+            <label asp-for="Email"
+                   class="block text-gray-700 text-sm font-bold mb-2">
+                Email
+            </label>
+
+            <input asp-for="Email"
+                   type="email"
+                   class="appearance-none border rounded w-full py-2 px-3 text-gray-700"
+                   placeholder="Enter email" />
+
+            <span asp-validation-for="Email"></span>
+        </div>
+
+        <button type="submit"
+                class="mb-6 font-bold py-2 px-4 rounded">
+            Save User
+        </button>
+    </form>
+</section>
