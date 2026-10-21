@@ -33,6 +33,16 @@ public class UserFormModel : PageModel
         }.ConnectionString;
     }
 
+    private async Task<int> GetTotalUsersCountAsync(
+    NpgsqlConnection connection)
+{
+    const string query = "SELECT COUNT(*) FROM users;";
+
+    await using var command = new NpgsqlCommand(query, connection);
+
+    return Convert.ToInt32(await command.ExecuteScalarAsync());
+}
+
     public async Task OnGetAsync()
    {
       try
@@ -42,14 +52,7 @@ public class UserFormModel : PageModel
 
          await connection.OpenAsync();
 
-         string query = "SELECT COUNT(*) AS total FROM users;";
-
-         await using var command =
-               new NpgsqlCommand(query, connection);
-
-         var result = await command.ExecuteScalarAsync();
-
-         TotalUsersCount = Convert.ToInt32(result);
+         TotalUsersCount = await GetTotalUsersCountAsync(connection);
 
          Message = $"Database connected successfully. Total users: {TotalUsersCount}";
       }
@@ -60,52 +63,53 @@ public class UserFormModel : PageModel
    }
 
     public async Task<IActionResult> OnPostAsync()
+{
+    if (string.IsNullOrWhiteSpace(Name) ||
+        string.IsNullOrWhiteSpace(Email))
     {
-        if (!TotalUsersCount.HasValue){
-               Message = "Index issue";
-               return Page();
-        }
-
-        if (string.IsNullOrWhiteSpace(Name) ||
-            string.IsNullOrWhiteSpace(Email))
-        {
-            Message = "Name and email are required.";
-            return Page();
-        }
-
-        try
-        {
-            await using var connection =
-                new NpgsqlConnection(GetConnectionString());
-
-            await connection.OpenAsync();
-
-            string query = """
-                INSERT INTO users (index, name, email)
-                VALUES (@index, @name, @email);
-                """;
-
-            await using var command =
-                new NpgsqlCommand(query, connection);
-
-            command.Parameters.AddWithValue("index", TotalUsersCount+1);
-            command.Parameters.AddWithValue("name", Name.Trim());
-            command.Parameters.AddWithValue("email", Email.Trim());
-
-            await command.ExecuteNonQueryAsync();
-
-            Message = "User inserted successfully!";
-
-            // Clear the form after successful insertion.
-            ModelState.Clear();
-            Name = string.Empty;
-            Email = string.Empty;
-        }
-        catch (Exception ex)
-        {
-            Message = "Failed to insert user: " + ex.Message;
-        }
-
+        Message = "Name and email are required.";
         return Page();
     }
+
+    try
+    {
+        await using var connection =
+            new NpgsqlConnection(GetConnectionString());
+
+        await connection.OpenAsync();
+
+        int totalUsersCount =
+            await GetTotalUsersCountAsync(connection);
+
+        const string query = """
+            INSERT INTO users (index, name, email)
+            VALUES (@index, @name, @email);
+            """;
+
+        await using var command =
+            new NpgsqlCommand(query, connection);
+
+        command.Parameters.AddWithValue(
+            "index", totalUsersCount + 1);
+
+        command.Parameters.AddWithValue("name", Name.Trim());
+        command.Parameters.AddWithValue("email", Email.Trim());
+
+        await command.ExecuteNonQueryAsync();
+
+        Message = "User inserted successfully!";
+
+        ModelState.Clear();
+        Name = string.Empty;
+        Email = string.Empty;
+
+        TotalUsersCount = totalUsersCount + 1;
+    }
+    catch (Exception ex)
+    {
+        Message = "Failed to insert user: " + ex.Message;
+    }
+
+    return Page();
+}
 }

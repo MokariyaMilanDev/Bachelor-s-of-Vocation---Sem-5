@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("razor-page-database-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c546aa7248e29bc86df81e791887e24347436a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+018de15edcfc9225f75f7e46d8d00986e302f34b")]
 [assembly: System.Reflection.AssemblyProductAttribute("razor-page-database-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("razor-page-database-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
