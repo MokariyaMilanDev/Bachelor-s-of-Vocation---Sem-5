@@ -71,3 +71,78 @@ Desktop.ini
 
 
 /__test__
+
+
+
+==========================================
+Java
+==========================================
+
+*.class *.jar .war .ear hs_err_pid replay_pid
+
+Maven
+
+target/
+
+Gradle
+
+.gradle/ build/
+
+Java IDEs
+
+.idea/ *.iml .classpath .project .settings/ .factorypath
+
+==========================================
+C# / .NET / ASP.NET Core / Razor Pages
+==========================================
+
+[Bb]in/ [Oo]bj/ [Aa]rtifacts/ TestResults/ *.user *.suo *.userosscache *.sln.docstates
+
+Visual Studio
+
+.vs/ *.rsuser *.sln.ide
+
+.NET generated files
+
+*.pdb *.cache project.lock.json project.fragment.lock.json
+
+NuGet
+
+*.nupkg *.snupkg .nuget/packages/
+
+==========================================
+IDEs and editors
+==========================================
+
+.vscode/ .idea/ *.swp *.swo *~
+
+Keep shared VS Code settings if needed
+!.vscode/settings.json
+!.vscode/extensions.json
+==========================================
+Environment variables and secrets
+==========================================
+
+.env .env.* !.env.example !.env.sample
+
+User-specific secret files
+
+secrets.json appsettings.Development.json
+
+==========================================
+Operating systems
+==========================================
+
+.DS_Store Thumbs.db Desktop.ini
+
+==========================================
+Logs and temporary files
+==========================================
+
+*.log logs/ temp/ tmp/
+
+==========================================
+Databases and local data
+==========================================
+
+*.sqlite *.sqlite3 *.db
